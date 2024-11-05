@@ -46,7 +46,6 @@ export const LoginForm = () => {
       headerDescription="Welcome back! Please fill out the form below before logging in to the website."
       backButtonLabel="Don't have an account? Register"
       backButtonHref="/register"
-      showSocial
     >
       <Form {...form}>
         <form onSubmit={handleSubmit} className="space-y-6">
